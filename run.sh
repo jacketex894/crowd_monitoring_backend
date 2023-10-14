@@ -1,0 +1,1 @@
+docker run -u root -d -it -p  15383:15383 --gpus device=0 -v $(pwd):/tf/workspace -v $(pwd)/.local:/.local --name crowd_monitoring crowd_monitoring bash
